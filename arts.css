@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url("sky.png");
+    background-size: 2500px;
+}
+h1{
+    padding: 16px 23px;
+}
+h2{
+    margin: 17px 23px;
+}
+.art{
+    padding: 49px 59px;
+}
+.art img{
+    height: 400px;
+    width: 300px;
+    margin: 0px 44px;
+}
+
+
+@media (max-width:1200px) {
+    .art img{
+        height: 160px;
+        width: 135px;
+        margin: 12px 12px;
+    }
+    .art{
+        padding: 39px 15px;
+    }
+}

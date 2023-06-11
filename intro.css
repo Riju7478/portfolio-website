@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url("sky.png");
+    background-size: 2500px;
+}
+.a{
+    font-size: 21px;
+}
+.js{
+    margin-left:5px ;
+}
+.image{
+    padding: 7px 70px;
+    margin: 0px 40px;
+}
+.image img{
+   height: 30vh;
+   width: 14vw;
+}
+.IDE{
+    padding: 7px 70px;
+    margin: 0px 40px;
+}
+.IDE img{
+    height: 30vh;
+    width: 14vw; 
+}
+.vs{
+    padding: 0 25px;
+
+}
+.py{
+    margin: 0px -80px;
+}
+.css{
+    margin: 0px 25px;
+}
+.js{
+    margin: 0px 32px;
+}
+.pc{
+    padding: 0 31px;
+}
+.ecl{
+    padding: 0 60px;
+}
+
+
+@media (max-width:1200px) {
+
+    h1{
+        margin: 0 20px;
+    
+    }
+    .a{
+        font-size: 20px;
+        padding: 4px 15px;
+    }
+    .image{
+        padding: 13px 94px;
+         margin: 2px -56px;
+    }
+
+    .image img{
+        height: 15vh;
+        width: 33vw;
+    }
+
+    .java{
+         padding: 0 21px;
+    }
+    .py{
+        margin: 35px -5px;
+    }
+    .html{
+        padding: 0 21px;
+        margin: 46px 4px;
+   }
+   .css{
+    margin: 46 24px;
+   }
+   .js{
+    padding: 0 21px;
+    margin: 1px -25px;
+}
+.IDE img {
+    height: 16vh;
+    width: 37vw;
+}
+
+.vs{
+    margin: -6px -119px;
+}
+.ecl{
+    margin: 0 56px;
+}
+.pc{
+    margin: 0 -117px;
+}
+
+}

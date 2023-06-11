@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:#52172de8;
+        padding: 16px 52px;
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+       transition:transform o.3s ease-in ;
+}
+.main{
+    /* background-color: yellow; */
+    width: 100vw;
+   
+        background:url("back.jpg");
+        background-size: 1500px;
+        
+           
+        
+   
+}
+
+.container{
+    display:flex
+}
+.sidebar nav{
+    padding: 20px 0;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 8px;
+}
+.Infocontainer{
+
+    /* background-color: green; */
+    height:68vh;
+    width:80vw;
+    margin: 124px auto;
+    display:flex;
+    justify-content: space-around;
+   
+
+}
+.divinfo{
+    padding: 112px 130px;
+    color: white;
+}
+.hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 40px;
+}
+.about{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.details{
+   
+        font-size: 18px;
+        margin: 12px 3px;
+        
+}
+.buttons{
+    margin: 15px 0px;
+}
+.buttons button{
+    padding: 7px 20px;
+    list-style: none;
+margin: 9px 6px;
+/* border: 3px solid black; */
+border-radius: 20px;
+background-color: #5a5ac9;
+color: white;
+}
+.divpic img{
+    height: 55vh;
+    width: 385px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+    padding: 40px 23px;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hamberger{
+
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+}
+.cross{
+    margin: 0 144px;
+}
+.bio{
+    margin: -61px 23px;
+    display: flex;
+}
+.bio img{
+    height: 38px;
+    width: 40px;
+    padding:0 6px
+}
+
+
+@media (max-width:1200px) {
+    
+    
+    .container{
+        display: contents;
+    }
+    .sidebar nav ul{
+        display: flex;
+       
+       padding: 1px 13px;
+       margin: -11px -63px;
+    }
+    .sidebar{
+        height: 6vh;
+        width:82vw;
+        background-color:#52172de8;
+    }
+    .sidebar nav li{
+        padding: 0 18px;
+        font-size: 16px;
+}
+.divinfo{
+    padding: 86px 5px;
+}
+.about{
+    font-size: 23px;
+    margin: 5px 0px;
+
+}
+ .Infocontainer{
+    
+    display: block;
+    background:url("back.jpg");
+        background-size: 1500px;
+}
+.main{
+    display: block;
+  
+        
+        margin-top: -124px;
+        margin-bottom: 12px;
+        height: 1230px;
+        width: 420px;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 36px;
+}
+.about{
+    font-size: 25px;
+    
+}
+.details{
+   
+        font-size: 18px;
+}
+.divinfo{
+    padding:87px 24px;
+}
+.divpic img{
+    height: 39vh;
+  width: 303px;
+  margin: -114px -53px;
+}
+.buttons button{
+    margin: 25px 4px;
+}
+.bio{
+    margin: 83px -42px;
+}
+
+        
+
+/* .divpic{
+    display: none;
+} */
+
+
+}
+
